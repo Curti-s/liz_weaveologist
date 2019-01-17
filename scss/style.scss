@@ -357,7 +357,8 @@ a {
 
 
 .btn {
-	border-radius: 100px;
+	border-radius: .5rem;
+	border: none;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	&:active, &:focus {
@@ -366,8 +367,9 @@ a {
 	}
 	&.btn-primary {
 		color: $white;
+		background: $primary;
 		&:hover, &:active, &:focus {
-			background: darken($primary, 5%);
+			background: darken($primary, 15%);
 		}
 	}
 }
