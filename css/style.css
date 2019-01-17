@@ -399,6 +399,10 @@ a:hover, a:focus, a:active {
 }
 
 /*--------- Start Portfolio Area -------------*/
+#section-portfolio {
+  background: #D5E5E3;
+}
+
 .portfolio-area .primary-btn {
   color: #fff;
   background-color: #0D47B3;
